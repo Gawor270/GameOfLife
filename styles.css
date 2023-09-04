@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(66, 65, 65);
+}
+
+h1{
+    color: blueviolet; 
+    font-family: fantasy; 
+    text-align: center; 
+    font-size:300%; 
+    padding: 15px 25px;
+}
+
+img{
+    width: 1000px;
+    height: 100px;
+}
+
+#buttons{
+    display: flex;
+    background-color: beige;
+    width: 70%; 
+    height: 100px;
+    margin: auto;
+}
+
+#gamebox{
+    background-color: rgb(212, 204, 204);
+    width: 700px;
+    height: 700px;
+    display: block;
+    margin: auto;
+}
+
+.item{
+    background-color: yellow;
+    border-style: solid;
+    border-color: black;
+}
+
+.button{
+    width: 25%;
+    height: 50%;
+    font-size: large;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+
+}
+
+.startbutton{
+    background-color: green;
+}
+
+.stopbutton{
+    background-color: rgb(170, 21, 21);
+}
